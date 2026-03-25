@@ -1,0 +1,36 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Tauri
+src-tauri/target/
+.tauri.conf.json.bak
+
+# App-specific
+*.wav
+*.mp3
+*.flac
+*.aiff
